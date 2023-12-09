@@ -15,7 +15,7 @@ version = "6.0.12"
 async-graphql = { workspace = true }
 
 async-trait.workspace = true
-axum = { version = "0.7.1", features = ["ws"] }
+axum = { git = "https://github.com/linrium/axum", branch = "feat/support-custom-sse-event", features = ["ws"] }
 bytes.workspace = true
 futures-util.workspace = true
 serde_json.workspace = true
